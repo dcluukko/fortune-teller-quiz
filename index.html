@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="js/jquery-3.4.1.js"></script>
+		<script src="js/scripts.js"></script>
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+		<title></title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>The Fortune Cookie-teller</h1>
+			<form id="fortuneIntake">
+				<div class="form-group">
+				<p>Which of the following has happened to you recently:</p>
+				<input type="checkbox" name="goodEvents" value="penny">Found a penny heads up<br>
+				<input type="checkbox" name="goodEvents" value="pebble">Found a perfectly smooth pebble<br>
+				<input type="checkbox" name="goodEvents" value="compliment">Recieved a compliment from a stranger.<br>
+				<input type="checkbox" name="goodEvents" value="friend">Made a friend<br>
+				<input type="checkbox" name="goodEvents" value="treat">Found a vegan/gluten-free bakery within your walking radius<br>
+				<input type="checkbox" name="goodEvents" value="star">Saw a shooting star<br>			
+				<input type="checkbox" name="badEvents" value="mirror">Shattered a mirror<br>
+				<input type="checkbox" name="badEvents" value="paper cut">Got a paper cut<br>
+				<input type="checkbox" name="badEvents" value="well">Fell down a well<br>
+				<input type="checkbox" name="badEvents" value="plumbing">The pipes burst in your home<br>
+				<input type="checkbox" name="badEvents" value="missed">Missed your street car that only comes once every 15 minutes<br>
+				<input type="checkbox" name="badEvents" value="drop">Lost your perfectly smooth pebble<br>
+			</div>
+			<button type="submit" class="btn btn-info">Get your fortune!</button>
+			</form>
+			<span id="badReading">
+				<p><b>Bad</b></p>
+			</span>
+			<span id="neutralReading">
+				<p><b>Neutral</b></p>
+			</span>
+			<span id="goodReading">
+				<p><b>Good</b></p>
+			</span>
+		</div>
+	</body>
+</html>
